@@ -14,7 +14,7 @@ jobs:
   # Единственная задача — склонировать код
   # и вывести в консоль дерево файлов
   checkout-and-print-tree:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       # На GitHub Actions есть готовые описания шагов,
       # их можно использовать в своих workflow.
