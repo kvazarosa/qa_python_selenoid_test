@@ -8,13 +8,13 @@ on:
   push:
     # Отслеживаем изменения только в ветке master
     branches:
-      - master
+      - main
 # Перечень задач
 jobs:
   # Единственная задача — склонировать код
   # и вывести в консоль дерево файлов
   checkout-and-print-tree:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       # На GitHub Actions есть готовые описания шагов,
       # их можно использовать в своих workflow.
